@@ -1,0 +1,18 @@
+SELECT users.name,users.email,event.event_name,attended.user_id,attended.event_id
+FROM users,event,attended
+
+SELECT users.name,users.email,event.event_name,attended.user_id,attended.event_id
+FROM users,event,attended
+WHERE event.id = attended.event_id
+
+SELECT users.name,users.email,event.event_name,attended.user_id,attended.event_id
+FROM users,event,attended
+WHERE event.id = attended.event_id AND users.id = attended.user_id
+
+SELECT users.name,users.email,event.event_name FROM users,event,attended WHERE event.id = attended.event_id AND users.id = attended.user_id
+
+to prevent entering duplicate record: make that colum UNIQUE and use INSERT IGNORE
+
+INSERT IGNORE into users (name,email,event_name) values ('$name','$email','$event_name')
+
+INSERT INTO attended (user_id,event_id) SELECT users.id ,events.id FROM users,events WHERE users.name='Akshay Rathod' AND events.name='Third'

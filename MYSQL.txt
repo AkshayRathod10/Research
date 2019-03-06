@@ -1,0 +1,13 @@
+MYSQL 
+
+Query for adding UNIQUE attribute to the existing table column
+
+	ALTER TABLE mytbl ADD UNIQUE (columnName);
+
+
+Query for fetching random column from database table
+
+	SELECT question
+	FROM questions
+	ORDER BY RAND( ) 
+	LIMIT 10

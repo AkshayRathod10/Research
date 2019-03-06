@@ -1,0 +1,35 @@
+If your theme supports WordPress menus, then you already have a built-in class to make it super easy to highlight the current page being viewed. If you’re using an older theme that does not offer support for WordPress menus, then you can easily add it in yourself by following the tutorial in the codex.
+
+By default, WordPress menus output this class with the list item: current-menu-item
+
+You can choose to target either the list item or the link itself. This example specifies the background color and font color for the current list item:
+
+{code type=css}
+li.current-menu-item {
+background: #3FAEA5;
+color:#fff;
+}{/code}
+
+So simple, right? Here’s how you might target the link itself:
+{code type=css}
+li.current-menu-item a {
+text-decoration: underline;
+background:#ccc;
+}{/code}
+
+You can add colors, backgrounds, text shadows, background images, or anything you like to highlight the current page.
+
+If your theme supports the creation of multiple navigation menus, then you’ll need to be a bit more specific in your CSS if you want to have them styled differently. You can use Firebug to find the unique ID of your unordered list. It will contain the name you gave to your menu. If you have other menus with different styles on the page, then you’ll need to differentiate them in your CSS:
+{code type=css}
+#menu-main-pages li.current-menu-item {
+background: #3FAEA5;
+color:#fff;
+}{/code}
+
+With those simple snippets you should have the basics for highlighting current menu items. Have fun styling your custom menus and let us know if there are any more CSS tutorials you’d be interested to see on wpmu.org.
+
+Tags:
+CSS
+Menus
+Sarah Gooding: View a list of posts by this author.
+Sarah Gooding is a partner at Untame, a boutique digital marketing firm specializing in open source content management systems and social networking architecture. She enjoys staying on top of the latest WordPress and BuddyPress news. Get in touch with Sarah on Twitter @pollyplummer

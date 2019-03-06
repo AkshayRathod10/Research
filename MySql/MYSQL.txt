@@ -1,0 +1,3 @@
+MYSQL 
+
+Query for adding UNIQUE attribute to the existing table column

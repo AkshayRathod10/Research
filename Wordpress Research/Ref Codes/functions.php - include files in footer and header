@@ -1,0 +1,13 @@
+function myscript() {
+    ?>
+    
+    <script src="<?php echo site_url();?>/wp-content/themes/shop-isle-child/js/flickity.pkgd.min.js"></script>
+    <script src="<?php echo site_url();?>/wp-content/themes/shop-isle-child/js/main.js"></script>
+    <?php
+    }
+add_action( 'wp_footer', 'myscript' );
+    
+function myscript_jquery() {
+    wp_enqueue_script( 'jquery' );
+}
+add_action( 'wp_head' , 'myscript_jquery' );

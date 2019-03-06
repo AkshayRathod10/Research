@@ -1,0 +1,68 @@
+Commands in linux
+
+passwd - to change the password of the current user.
+pwd - returns your location within the directory structure. (Present Working Directory)
+whoami - to see which user you’re logged in as.
+ls -l - (long listing) To get more information about the files and directories, such as their permissions,
+owner, size, and when they were last modified.
+ls -la - to see hidden files as well.
+--help - add --help to any command to know more about that command.
+man - before command or application to see the manual of respective.
+locate - this command will go through your entire filesystem and locateevery occurrence of that word.
+whereis - This command returns not only the location of the binary but also its source and man page if they are available.
+which - it only returns the location of the binaries in the PATH variable in Linux.
+
+Here’s the basic syntax for find :
+find directory options expression
+
+kali >find / ➊ -type f ➋ -name apache2 ➌
+
+First I state the directory in which to start the search, in this case / ➊. Then I specify
+which type of file to search for, in this case f for an ordinary file ➋. Last, I give the name
+of the file I’m searching for, in this case apache2 ➌.
+
+ps - The ps command is used to display information about processes running on the machine.
+
+cat > hackingskills - to create files.
+cat hackingskills - will show the content of the file "hackingskills".
+To add, or append, more content to a file, you can use the cat command with a double
+redirect ( >> ), followed by whatever you want to add to the end of the file.
+cat >> hackingskills
+
+To overwrite that same file. we can use the same command to create the file.
+cat > hackingskills
+
+press CTRL ­D to come out of the prompt.
+
+touch newfile - to create a new file.
+mkdir newdirectory - to create a new directory.
+cp - To copy files, we use the cp command. This creates a duplicate of the file in the new location and leaves the old one in place.
+mv - The mv command can be used to move a file or directory to a new location or simply to give an existing file a new name.
+rm - To remove a file, you can simply use the rm command.
+rmdir - To remove a directory but it will remove only empty directory.
+rm -r - To remove a directory and content of that directory.
+
+
+
+
+//////////////////////////////
+Important directories in linux
+//////////////////////////////
+
+/root The home directory of the all­powerful root user
+/etc Generally contains the Linux configuration files—files that control when and how
+programs start up
+/home The user’s home directory
+/mnt Where other filesystems are attached or mounted to the filesystem
+/media Where CDs and USB devices are usually attached or mounted to the filesystem
+/bin Where application binaries (the equivalent of executables in Microsoft Windows)
+reside
+/lib Where you’ll find libraries (shared programs that are similar to Windows DLLs)
+
+
+///////////////////////////////
+
+Advanced Packaging Tool - apt-get
+
+adding software - apt-get install package-name
+removing software - apt-get remove package-name

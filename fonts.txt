@@ -1,0 +1,2 @@
+'Quattrocento Sans',sans-serif
+'futura-pt',sans-serif
