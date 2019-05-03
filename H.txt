@@ -66,3 +66,37 @@ Advanced Packaging Tool - apt-get
 
 adding software - apt-get install package-name
 removing software - apt-get remove package-name
+
+//////////////////////////////
+Checking permissions
+/////////////////////////////
+
+ls -l (directory)
+
+The first character tells you the file type, where d stands for a directory and a dash ( – )
+indicates a file. These are the two most common file types.
+The next section defines the permissions on the file. There are three sets of three
+characters, made of some combination of read ( r ), write ( w ), and execute ( x ), in that
+order. The first set represents the permissions of the owner; the second, those of the
+group; and the last, those of all other users.
+Regardless of which set of three letters you’re looking at, if you see an r first, that user
+or group of users has permission to open and read that file or directory. A w as the
+middle letter means they can write to (modify) the file or directory, and an x at the end
+means they can execute (or run) the file or directory. If any r , w , or x is replaced with a
+dash ( - ), then the respective permission hasn’t been given. Note that users can have
+permission to execute only either binaries or scripts.
+Let’s use the third line of output in Listing 5­1 as an example:
+­rw­r­­r­­ 1 root root 33685504 June 28 2018 hashcat.hcstat
+The file is called, as we know from the right end of the line, hashcat.hcstat. After theinitial – (which indicates it’s a file), the permissions rw- tell us that the owner has read
+and write permissions but not execute permission.
+The next set of permissions ( r-- ) represents those of the group and shows that the
+group has read permission but not write or execute permissions. And, finally, we see
+that the rest of the users also have only read permission ( r-- ).
+These permissions aren’t set in stone. As a root user or file owner, you can change
+them.
+
+/////////////////////////////
+Changing permissions
+////////////////////////////
+
+chmod - 

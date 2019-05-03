@@ -4,4 +4,4 @@ ssh username@domainname.com
 
 move to the directory where you want to save the database backup file.
 
-mysqldump -uUSERNAME -p DATABASE > backup.sql
+mysqldump -u USERNAME -p DATABASE > backup.sql
