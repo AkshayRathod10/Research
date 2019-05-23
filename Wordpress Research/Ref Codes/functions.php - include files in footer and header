@@ -1,8 +1,8 @@
 function myscript() {
     ?>
     
-    <script src="<?php echo site_url();?>/wp-content/themes/shop-isle-child/js/flickity.pkgd.min.js"></script>
-    <script src="<?php echo site_url();?>/wp-content/themes/shop-isle-child/js/main.js"></script>
+    <script src="<?php get_stylesheet_directory_uri();?>/js/flickity.pkgd.min.js"></script>
+    <script src="<?php get_stylesheet_directory_uri();?>/js/main.js"></script>
     <?php
     }
 add_action( 'wp_footer', 'myscript' );

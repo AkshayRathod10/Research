@@ -1,0 +1,15 @@
+//Dequeue Styles
+function project_dequeue_unnecessary_styles() {
+    wp_dequeue_style( 'bootstrap-map' );
+        wp_deregister_style( 'bootstrap-map' );
+}
+add_action( 'wp_print_styles', 'project_dequeue_unnecessary_styles' );
+
+//Dequeue JavaScripts
+function project_dequeue_unnecessary_scripts() {
+    wp_dequeue_script( 'modernizr-js' );
+        wp_deregister_script( 'modernizr-js' );
+    wp_dequeue_script( 'project-js' );
+        wp_deregister_script( 'project-js' );
+}
+add_action( 'wp_print_scripts', 'project_dequeue_unnecessary_scripts' );
